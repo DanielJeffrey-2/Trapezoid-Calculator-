@@ -1,0 +1,12 @@
+#Created by: Daniel Jeffrey
+#Created on: Sept 30, 2022
+#This  program calculates the area of a trapezoid with given values.
+
+Base_1 = 5
+Base_2 = 6
+print("Today we are calculating the area of a trapezoid in cm2")
+height = int(input("Height of trapezoid: "))
+Base_1 = int(input('Side A value: '))
+Base_2 = int(input('Side B value: '))
+area = ((Base_1 + Base_2) / 2) * height
+print("Area of trapezoid is: cm2", area)
